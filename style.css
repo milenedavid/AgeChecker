@@ -9,9 +9,9 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 510px;
+  width: 550px;
   background: rgb(107, 165, 241);
-  font: normal 16pt Arial;
+  font: normal 15pt Arial;
   margin: auto;
 }
 
@@ -78,5 +78,5 @@ footer{
   color: #fff;
   text-align: center;
   font-style: italic;
-  margin-top: 20px;
+  padding: 20px;
 }
