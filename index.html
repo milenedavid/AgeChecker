@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Age checker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Age checker</h1>
+  </header>
+  <section>
+    <div>
+      <p> Year of birth:
+        <input type="number" name="year" id="year" required>
+      </p>
+      <p> Gender: 
+        <label for="male"><input id="male" name="gender" type="radio" checked> Male </label> 
+        <label for="female"><input id="female" name ="gender" type="radio"> Female </label>
+      </p>
+      <p>
+        <input class = "button" type="submit" value="Verify" onclick="verify()">
+      </p>
+    </div>
+    <div id="res">
+      Fill the information above to see the result! 
+    </div>
+  </section>
+  <footer> 
+    <p>&copy;Milene David</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
