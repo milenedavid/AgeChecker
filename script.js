@@ -19,64 +19,64 @@ function verify() {
         //Baby
         life_stage = 'Baby'
         res.innerHTML = `We detected a ${life_stage} with ${age} years old`
-        image.setAttribute('src', 'baby-m.jpg') 
+        image.setAttribute('src', 'images/baby-m.jpg') 
       } else if ( age <= 12) {
         //Boy
         life_stage = 'Boy'
         res.innerHTML = `We detected a ${life_stage} with ${age} years old`
-        image.setAttribute('src', 'boy.jpg') 
+        image.setAttribute('src', 'images/boy.jpg') 
       } else if (age <= 19){
         //Teenager
         life_stage = 'Teenager'
         res.innerHTML = `We detected a ${life_stage} with ${age} years old`
-        image.setAttribute('src', 'teenager-m.jpg') 
+        image.setAttribute('src', 'images/teenager-m.jpg') 
       } else if (age <= 40){
         //Young Adult
         life_stage = 'Young Adult'
         res.innerHTML = `We detected a ${life_stage} with ${age} years old`
-        image.setAttribute('src', 'young_adult-m.jpg') 
+        image.setAttribute('src', 'images/young_adult-m.jpg') 
       } else if (age <= 65){
         //Adult
         life_stage = 'Adult'
         res.innerHTML = `We detected an ${life_stage} with ${age} years old`
-        image.setAttribute('src', 'adult-m.jpg') 
+        image.setAttribute('src', 'images/adult-m.jpg') 
       } else {
         //Elderly
         life_stage = 'Elderly'
         res.innerHTML = `We detected an ${life_stage} with ${age} years old`
-        image.setAttribute('src', 'elderly-m.jpg') 
+        image.setAttribute('src', 'images/elderly-m.jpg') 
       }
     } else {
       if( age >=0 && age <= 2){
         //Baby
         life_stage = 'Baby'
         res.innerHTML = `We detected a ${life_stage} with ${age} years old`
-        image.setAttribute('src', 'baby-f.jpg')
+        image.setAttribute('src', 'images/baby-f.jpg')
       } else if ( age <= 12) {
         //Girl
         life_stage = 'Girl'
         res.innerHTML = `We detected a ${life_stage} with ${age} years old`
-        image.setAttribute('src', 'girl.jpg') 
+        image.setAttribute('src', 'images/girl.jpg') 
       } else if (age <= 19){
         //Teenager
         life_stage = 'Teenager'
         res.innerHTML = `We detected a ${life_stage} with ${age} years old`
-        image.setAttribute('src', 'teenager-f.jpg') 
+        image.setAttribute('src', 'images/teenager-f.jpg') 
       } else if (age <= 40){
         //Young Adult
         life_stage = 'Young Adult'
         res.innerHTML = `We detected a ${life_stage} with ${age} years old`
-        image.setAttribute('src', 'young_adult-f.jpg') 
+        image.setAttribute('src', 'images/young_adult-f.jpg') 
       } else if (age <= 65){
         //Adult
         life_stage = 'Adult'
         res.innerHTML =`We detected an ${life_stage} with ${age} years old`
-        image.setAttribute('src', 'adult-f.jpg') 
+        image.setAttribute('src', 'images/adult-f.jpg') 
       } else {
         //Elderly
         life_stage = 'Elderly'
         res.innerHTML = `We detected an ${life_stage} with ${age} years old`
-        image.setAttribute('src', 'elderly-f.jpg') 
+        image.setAttribute('src', 'images/elderly-f.jpg') 
       }
     }
     res.appendChild(image);
